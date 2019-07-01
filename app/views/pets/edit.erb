@@ -7,7 +7,7 @@
   Choose an existing owner:
   <br>
   <%Owner.all.each do |owner|%>
-    <input type="radio" name="pet[owner_id]" id="<%=owner.name%>" value="<%=owner.id%>">
+    <input type="radio" name="pet[owner_id]" id="<%=owner.name%>" value="<%=owner.id%>"><%=owner.name%></input>
   <%end%>
 
   <br>
