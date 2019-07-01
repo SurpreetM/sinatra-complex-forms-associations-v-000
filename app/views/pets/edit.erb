@@ -7,6 +7,7 @@
   <br>
   <%@Owner.all.each do |owner|%>
     <input type="radio" name="pet[owner_id]" value="<%=@owner.id%>">
+  <%end%>
 
 
   <input type="submit" value="Update Pet">
